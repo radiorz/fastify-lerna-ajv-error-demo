@@ -1,0 +1,22 @@
+{
+  "name": "fff",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "boot": "lerna bootstrap",
+    "app": "yarn workspace the-app app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lerna": "^5.1.8"
+  }
+}
